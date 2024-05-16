@@ -12,14 +12,14 @@
  * availableTime is a Number representing the time you have for lunch,
  * in minutes.
  */
-// INPUT(S) = 
+// INPUT(S) =
 // * Whether Or Not Hungry Is True Or False.
 // * How Much Time Is Available.
 // * Conditional Logic.
-// OUTPUT(S) = 
+// OUTPUT(S) =
 // * Unmodified Strings Found Below Explaining What To Do.
 // * One Response Printed To The Console.
-// Details = 
+// Details =
 // * hungry is expecting a Boolean expression.
 // * available time is expecting a positive integer.
 
@@ -37,7 +37,7 @@ const whatToDoForLunch = function(hungry, availableTime) {
   if (availableTime > 30) {
     return console.log("This is an intense program after all and you should probably reconsider");
   }
-}
+};
 
 
 /*
